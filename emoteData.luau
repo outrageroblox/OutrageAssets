@@ -42,7 +42,25 @@ local emoteConfig = {
 		Sound = "outrageEmoteMusic/whoisyou.mp3",
 		AnimSpeed = 1.012,
 		SongEndOffset = 0.04,
-	}
+	},
+	["Cory Dance"] = {
+		Id = 95114672949685,
+		Sound = "outrageEmoteMusic/corydance.mp3",
+		AnimSpeed = 0.905,
+		SongEndOffset = 0.04,
+	},
+	["Rat Dance"] = {
+		Id = 113375965758912,
+		Sound = "outrageEmoteMusic/ratdance.mp3",
+		AnimSpeed = 0.98,
+		SongEndOffset = 0.05,
+	},
+	["Slickback"] = {
+		Id = 74244787236871,
+		Sound = "outrageEmoteMusic/slickback.mp3",
+		AnimSpeed = 1.099,
+		SongEndOffset = 0.05,
+	},
 }
 
 local emoteOrder = {
@@ -51,9 +69,12 @@ local emoteOrder = {
 	"Griddy",
 	"Who Is You",
 	"Default Dance",
+	"Rat Dance",
 	"Billy Bounce",
 	"Boppin",
 	"Xavier Dance",
+	"Cory Dance",
+	"Slickback",
 }
 
 return emoteConfig, emoteOrder
