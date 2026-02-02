@@ -6,7 +6,7 @@ local awp = game:GetObjects("rbxassetid://139991606966378")[1]
 local awpLoaded = false
 local renderLoop = nil
 
-local offset = Vector3.new(1, -1, -1.5)
+local offset = Vector3.new(1.5, -1.5, -2.5)
 local shootCFOffset = CFrame.new(0, 0, 0.4) * CFrame.fromOrientation(math.rad(40), 0, 0)
 
 local shootAnim = nil
