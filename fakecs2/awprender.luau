@@ -44,7 +44,7 @@ function module.shoot()
 			shootAnim:Cancel()
 			shootAnim:Destroy()
 		end
-		offset2.Value = CFrame.new(0, 0, 0.4) * CFrame.fromOrientation(math.rad(40), 0, 0)
+		offset2.Value = shootCFOffset
 		shootAnim = game:GetService("TweenService"):Create(offset2, TweenInfo.new(
 			0.8,
 			Enum.EasingStyle.Quad,
